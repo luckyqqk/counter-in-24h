@@ -9,3 +9,4 @@ ok,实现这一需求的方案或许有很多种,但无论哪种实现方案.房
 ### 实现简述
 利用redis的hash,固定key:COUNTER:IN:24H,field客户自定义(最终能转str就好),值是 某天_count.
 ### 安装 
+npm install counter-in-24h
